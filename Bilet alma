@@ -1,0 +1,10 @@
+kalkış=input("kalkış yeri:")
+varış=input("varış yeri:")
+kalkiş_saati=input("kalkış saati:")
+isim_soyisim=input("isim ve soyisim:")
+bilet_sayısı=input("bilet sayısı: ")
+koltuk_numarası=input("koltuk numaranız:")
+valiz_sayısı=input("valiz sayınız :")
+ikram_tercihiniz=input("ikram ister misiniz:")
+metin="{} kalkış noktasından {} varış noktasına, {} hareket saatli sefer için \n{} adına {} adet bilet alınmıştır \nek bligiler \nkoltuk numaranız {} \nvaliz sayınız {} \nikram tercihiniz {} "
+print(metin.format(kalkış,varış,kalkiş_saati,isim_soyisim,bilet_sayısı,koltuk_numarası,valiz_sayısı,ikram_tercihiniz))
